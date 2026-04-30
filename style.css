@@ -205,8 +205,11 @@
 .images {
   display: flex;
   flex: 1;
-  flex-direction: row; 
+  flex-direction: column; 
   gap: 12px;
+  justify-content: left;
+  width: 50%;
+  height: 90vh;
 }
 
 
